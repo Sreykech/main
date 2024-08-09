@@ -1,0 +1,113 @@
+/* css for kristar */
+.top-header {
+    background-color: #7BE0B6 !important;
+}
+
+.branding .logo img {
+    max-height: 60px;
+}
+
+.system-body {
+    /*min-width: 100vw;*/
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.menu-item * {
+    font-size: 20px;
+}
+
+.lmk_navigation.menu-item {
+    background-color: #fff;
+    transition: 300ms;
+}
+
+.lmk_navigation.menu-item:hover {
+    background-color: #7BE0B6;
+}
+
+.menu-item:hover a {
+    color: #fff;
+}
+.dashboad-key-figure .p-panel-header{
+    padding-bottom: 0;
+}
+.dashboad-key-figure .p-panel-header h2{
+    font-size: 35px;
+}
+.dashboad-key-figure .p-panel-footer{
+    padding-left: 0;
+    padding-right:0;
+    padding-block: 0em;
+}
+/* .dashboad-key-figure .p-panel-footer .lmk-dsh-btn{
+    background-color: #7BE0B6;
+} */
+.dsh_graphs .p-panel-header{
+    justify-content: center !important;
+}
+
+.p-inputgroupaddon.vat-type{
+    padding: 0;
+}
+.p-inputgroupaddon.vat-type .p-select.p-component{
+    border: none;
+}
+.pos-sell-btn{
+    background-color: #00ff53;
+}
+.title_bar>i {
+    font-size: 25px;
+}
+.title_bar>h1{
+    font-size: 25px;
+    margin: 0;
+}
+.p-button-secondary:not(:disabled):hover{
+    border-width: 0px !important;
+}
+.report-list.p-listbox{
+    border: none;
+}
+.report-list .p-listbox-option{
+    flex-direction: column;
+    align-items: start;
+}
+.report-list .p-listbox-option>div{
+    width: 100%;
+}
+.sidebar-wrap{
+    width: 230px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar-wrap{
+        position: fixed;
+        top: 85px;
+        left: 0px;
+        z-index: 99;
+        width: 230px;
+        transform: translate(-230px,0);
+    }
+    .sidebar-overlay{
+        display: none;
+        top: 85px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 10;
+        background-color: #00000055;
+
+    }
+    .sidebar-wrap::before{
+
+    }
+    .sidebar-wrap.active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        width: 270px;
+    }
+}

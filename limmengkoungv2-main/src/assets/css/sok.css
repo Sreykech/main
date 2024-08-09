@@ -1,0 +1,102 @@
+/* css for sok
+h1 {
+    justify-content: center;
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    border: 1px solid rgb(176, 52, 52);
+    padding: 10px;
+    border-radius: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid rgb(176, 52, 52);  
+    border-radius:4px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(19, 69, 247);
+    border: 1px solid rgb(176, 52, 52);  
+    border-radius:4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(10, 23, 87);
+    color: white;
+}
+.container{
+    display: flex;
+    border: 1px solid rgb(176, 52, 52);
+    padding: 10px;
+    border-radius: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid rgb(176, 52, 52);  
+    border-radius:4px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(19, 69, 247);
+    border: 1px solid rgb(176, 52, 52);  
+    border-radius:4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(10, 23, 87);
+    color: white;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    margin-right: 10px;
+  }
+  .nav-link.active {
+    font-weight: bold;
+    background-color: #7BE0B6;
+    border-radius: 5px;
+    margin: 5px;
+    color: white !important;
+  }
+  .menu {
+    position: fixed;
+    width: 180px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    margin-top: 80px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    transition: all .3s ease;
+    overflow: auto;
+  } */
+  .reportlist .p-listbox-list-container{
+    max-height: unset !important;
+    height: 100%;
+  }
+  .reportlist .p-listbox-option{
+    border-bottom: 1px solid #7BE0B6;
+  }
